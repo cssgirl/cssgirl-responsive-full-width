@@ -30,4 +30,13 @@ It *should* work **EVERYWHERE**. But if you encounter bugs, please feel free to 
 * iOS Safari, Chrome
 * annnnd IE 7-11
 
-I don't have an Andriod device to test in (aside from my Kindle Fire 1st gen, so if anyone sees issues on Android - let me know or create an issue please)
+I don't have an Andriod device to test in (aside from my Kindle Fire 1st gen, so if anyone sees issues on Android - let me know or create an issue please).
+
+#### Upcoming updates
+
+* Background image example 
+* Gradient example
+
+#### Possible Future updates
+
+* Navigation example.

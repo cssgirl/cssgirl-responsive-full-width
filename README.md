@@ -29,3 +29,5 @@ It *should* work **EVERYWHERE**. But if you encounter bugs, please feel free to 
 * Safari
 * iOS Safari, Chrome
 * annnnd IE 7-11
+
+I don't have an andriod device to test in (aside from my Kindle Fire 1st gen, so if anyone sees issues on Android - let me know or create an issue please)

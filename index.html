@@ -1,0 +1,98 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Responsive Full Width Header/Footer</title>
+
+<!-- Reset by murtaugh found here: https://github.com/murtaugh/HTML5-Reset -->
+<link rel="stylesheet" href="css/reset.css" />
+
+<!-- Styles to make this happen! -->
+<link rel="stylesheet" href="css/base.css" />
+
+<!-- Modernizr -->
+<script src="js/libs/modernizr-2.7.1.dev.js"></script>
+
+</head>
+
+<body>
+
+<header class="header clearfix">
+	<div class="container">
+    	<div class="logo">
+        	<a href="/">CSSgirl Demo</a>
+         </div>
+
+        <div class="tagline">
+        	Full width header &amp; footer examples
+        </div>
+    </div>
+</header>
+
+<section class="content">
+	<div class="container">
+		<article class="post">
+
+	        <h1 class="text-center">View the Demos</h1>
+	        <div class="button-container">
+	        	<a href="http://cssgirl.github.io/cssgirl-responsive-full-width/full-width/" class="button">View Full Width</a>
+
+	        	<a href="http://cssgirl.github.io/cssgirl-responsive-full-width/fixed-full-width/" class="button">View Sticky</a>
+	        </div>
+
+        </article>
+    </div>
+</section>
+
+<section class="content-second clearfix">
+	<h2 class="text-center">About</h2>
+	<div class="container">
+		<article class="post post-sidebar">
+	        <p>In 2008 I started exploring different ways to make a full-width header and footer, and over the years I have simplified, responsified (this should be a real word) and updated my technique. The prior iteration of this technique I released still relied on fixed width containers and it <em>definitely</em> wasn't responsive. This (probably, most likely, maybe) is the last version I'll be releasing. It's fully responsive, doesn't have any issues with zooming and should be simple enough to understand if you have basic (if limited) knowledge of CSS.</p>
+
+	        <h3>What is this?</h3>
+	        <p>What you will see here are two examples of how to do this very common technique  you will probably encounter the need for many, many times.</p>
+
+	        <p>The first example is "full width" sections on the site (most commonly the header &amp; footer and even different sections through pages) that have the content centered while the background color/image/gradient extends to entire width of the window.</p>
+
+	        <p>The second, "fixed/sticky/anchored" (however you want to call it) example is using the same technique, except the header and footer stay "anchored" to the top and bottom of the window as you scroll. You can use both, or just one or the other.</p>
+
+	        <h3>So... what's different?</h3>
+
+	        <p>This version is compeltely responsive. Don't use the other versions. They suck. Seriously, don't use them anymore. Pretend I never wrote that poopy-code. Now, there are no floats used on the major elements. No fixed width elements. And I've used ems instead of pixel measurements. I've removed the use of IDs and used some simple class names for a quick example. Please name your classes more semantically. In fact you should take a look at BEM and SMACSS. The HTML is using HTML5 tags instead of div soup.</p>
+
+	        <h3>Licensing</h3>
+	        <p>Feel free to use this technique to your heart's content. Tell all your homies. No rules. I'd <em>love</em> it if you didn't reproduce this and claim it as your own, but whatevs.</p> 
+
+	        <p>It would be cool to know if you've used it, or if you found it helpful.</p>
+
+	        <p class="text-center"><small><em>**This is geared towards those new to code, who need a little help getting the basics down!**</em></small></p>
+        </article>
+        <aside class="sidebar-right">
+        	<div class="box-area">
+        		<p>If you want to use these techniques all the information you need is commented in the stylesheet. It's very simple, and really only requires you having a container class that you set a max-width on (to center content). The fixed width version has a few more rules you will need to add.</p>
+        	</div>
+
+        	<div class="box-area">
+        		<h3>Contact</h3>
+        		<p>Need some help? Have a question?<br>
+        		<a href="mailto:fullwidth@cssgirl.com">Send me an email</a>
+        		or find me on:</p>
+        		<ul>
+        			<li><a href="http://twitter.com/cssgirl">Twitter</a></li>
+        			<li><a href="https://www.facebook.com/CSSgirlDev">Facebook</a></li>
+        			<li><a href="https://github.com/cssgirl/cssgirl-responsive-full-width">Github</a></li>
+        		</ul>
+        	</div>
+        </aside>
+    </div>
+</section>
+
+<footer class="footer text-center">
+	<div class="container">
+            <p>&copy; 2015 - <a href="http://cssgirl.com">CSSgirl Dev &amp; Design</a></p>
+    </div>
+</footer>
+
+
+
+</body></html>

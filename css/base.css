@@ -1,0 +1,162 @@
+/* CSS responsive fixed full width header, footer, content sections by Lindsey Di Napoli of CSSgirl Dev & Design */
+
+* {
+  -webkit-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -webkit-transform;
+  -moz-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -moz-transform;
+  -o-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -o-transform;
+  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+body {
+	background: #f2f2f2 url(../img/crossword.png);
+	color: #52514E;
+	font: 100% Helvetica,  Arial,  sans-serif;
+	line-height: 1.25em;
+}
+
+h1 {
+	font-size: 1.75em;
+	margin: 1em 0;
+	line-height: 1.15em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 1em 0;
+	line-height: 1.15em;
+	background: rgba(255,255,255,.5);
+	padding: .5em;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 1.25em;
+}
+
+p {
+	margin: 1.5em 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #2C3334;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 75em;
+}
+
+.header {
+	font-size: 1.25em;
+	line-height: 1.5;
+}
+
+.header, .post {
+	padding: 1.5em;
+}
+
+.footer {
+	padding: .5em;
+}
+
+.header, .footer {
+	background: #F5B9D0;
+	color: #2C3334;
+}
+
+ul {
+	padding-left: 1.25em;
+}
+
+ul li {
+	list-style: square;
+	margin-bottom: 5px;
+}
+
+/* For this demo I have the logo and tagline at 50% of the screen on all screen sizes. Most likely you may need to adjust these widths and the breakpoints for various viewport sizes. */
+.logo, .tagline {
+	width: 50%;
+	float: left;
+}
+
+.tagline {
+	text-align: right;
+	font-size: .75em;
+}
+
+.content {
+	padding: 1em 0;
+}
+
+.content-second {
+	background: #D0EDF3;
+}
+
+.content-third {
+	background: #F9F2E0;
+}
+
+.post-sidebar {
+	float: left;
+	width: 70%;
+}
+
+.sidebar-right {
+	float: right;
+	width: 30%;
+	padding: 1em;
+}
+
+/* Media query to make the sidebar drop and stack below the content when the screen is smaller than 800px, and giving both the sidebar and content to the left 100% width. */
+@media (max-width: 800px) {
+	.sidebar-right, .post-sidebar {
+		width: 100%;
+		float: none;
+	}
+	.sidebar-right {
+		padding-top: 0;
+	}
+}
+
+.box-area {
+	padding: 1em;
+	background: rgba(164,187,192,.3);
+	margin-top: 1.2em;
+}
+
+.box-area a {
+	border-bottom: 1px solid;
+}
+
+/*Github Page Customization*/
+.button-container {
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+.button {
+	display: inline-block;
+	background: #2C3334;
+	color: #D0EDF3;
+	padding: 1.3em 2em;
+	font-weight: 700;
+	margin-right: 1em;
+}
+.button:hover {
+	background: #F5B9D0;
+	color: #2C3334;
+}

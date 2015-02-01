@@ -2,11 +2,9 @@
 Full Width Header, Footer, Content Areas with centered content. 
 "Anchored" Header/Footer version also included.
 
-See article here:
+See article here: (Link Coming Soon)
 
-See demo here:
-
-See fixed/sticky/anchored demo here: 
+[View demos](http://cssgirl.github.io/cssgirl-responsive-full-width)
 
 
 # CSS Full width Header, Footer and Content ares with centered content - now responsive!
@@ -22,3 +20,12 @@ The fixed-full-width folder contains and example of the same technique as above,
 ### Browser/Device support
 
 It *should* work **EVERYWHERE**. But if you encounter bugs, please feel free to let me know, or contribute!
+
+##### Tested in (all latest stable versions):
+
+* Chrome
+* Firefox
+* Opera
+* Safari
+* iOS Safari, Chrome
+* annnnd IE 7-11

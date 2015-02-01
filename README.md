@@ -8,13 +8,13 @@ See article here: (Link Coming Soon)
 [View demos](http://cssgirl.github.io/cssgirl-responsive-full-width)
 
 
-# CSS Full width Header, Footer and Content areas with centered content - now responsive!
+## CSS Full width Header, Footer and Content areas with centered content - now responsive!
 
 A one page example of how to create sections of the site with full width backgrounds (color, images, etc can be used), where the content is centered.
 
 This is based off some older examples I provided on [CSSgirl](http://cssgirl.com) which where *not* responsive (*eeeeewwww!*) and contained fixed widths and didn't work well when zooming.
 
-# CSS Full Width Anchored Header &amp; Footer!
+## CSS Full Width Anchored Header &amp; Footer!
 
 The fixed-full-width folder contains and example of the same technique as above, only the header and footer will always be "anchored" to the top and bottom of the window.
 
